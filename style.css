@@ -1,4 +1,4 @@
-.h1 {
+h1 {
     text-align: center;
 }
 body {
@@ -11,17 +11,25 @@ body {
     color: #aaf2ef;
 }
 .button-group{
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: visible;
 }
 .button{
+    font-size: 15px;
     border: none;
     background-color: #006d65;
     border-radius: 15px;
     width: 250px;
     height: 50px;
-    align-items: center;
     justify-content: center;
-    margin: 10px 0;
+    margin: 5px 0;
+    transition: background-color 0.3s, opacity 0.3s;
+    opacity: 0.6;
+}
+.button:hover{
+    background-color: #006d65;
+    opacity: 1;
 }
