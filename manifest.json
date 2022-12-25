@@ -9,7 +9,7 @@
     "icons": {
       "48": "icons/canyon.png"
     },
-    
+
     "browser_action": {
       "default_title": "Custom Theme",
       "default_popup": "mainpop.html"

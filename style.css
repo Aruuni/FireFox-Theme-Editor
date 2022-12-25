@@ -1,23 +1,27 @@
-h1 {
+.title {
+    margin-top: 30px;
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
 }
-body {
+
+body{
     background-color: #00918f;
     height: 450px;
-    
+    width: 500px;
 }
 .text{
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     color: #aaf2ef;
 }
 .button-group{
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: visible;
 }
 .button{
+    display: inline-block;
     font-size: 15px;
     border: none;
     background-color: #006d65;
@@ -29,7 +33,50 @@ body {
     transition: background-color 0.3s, opacity 0.3s;
     opacity: 0.6;
 }
+.button-small{
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    background-color: #006d65;
+    border-radius: 15px;
+    width: 60px;
+    height: 50px;
+    justify-content: center;
+    margin: 5px 0;
+    transition: background-color 0.3s, opacity 0.3s;
+    opacity: 0.6;
+}
+.button-small:hover{
+    background-color: #006d65;
+    opacity: 1;
+}
 .button:hover{
     background-color: #006d65;
     opacity: 1;
+}
+
+.side-b-side{
+    text-align: center;
+}
+.button-color-picker{
+    display: inline-block;
+    border: none;
+    background-color: #006d65;
+    border-radius: 15px;
+    width: 80px;
+    height: 50px;
+    justify-content: center;
+    transition: background-color 0.3s, opacity 0.3s;
+    opacity: 0.6;
+}
+.button-color-picker:hover{
+    background-color: #006d65;
+    opacity: 1;
+}
+.back{
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
 }
